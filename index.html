@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Resume — Hafiz Muhammad Adan</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" type="image/x-icon" href="\assets\resume-logo.png"> -->
+</head>
+
+<body>
+
+    <div class="resume fade-in-up" id="resumeCard">
+        <div class="header" id="headerGrid">
+            <div class="profile">
+                <div class="name">Hafiz Muhammad Adan Suhail</div>
+                <div class="role">Frontend Developer • Web Developer • SEO & Digital Marketer and Database Expert</div>
+
+                <div class="contacts" aria-label="contacts">
+                    <a href="mailto:adansuahilch@gmail.com" target="_blank">✉️ adansuahilch@gmail.com</a>
+                </div>
+
+                <div class="links" aria-hidden="false">
+                    <a href="https://adandev.is-a.dev/" target="_blank">Portfolio</a>
+                    <a href="https://github.com/adansuhailch-cell" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/hafiz-adan-suhail-2676a13b8/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2B16ZxY1MRtaFwsdOf6wUgQ%3D%3D" target="_blank">LinkedIn</a>
+                </div>
+
+                <button class="btn-print" onclick="window.print()">Export as PDF</button>
+                <div class="note">Creating clean, accessible and responsive web experiences.</div>
+            </div>
+
+            <div class="avatar-wrap" aria-hidden="false">
+                <div class="avatar" role="img" aria-label="Profile photo">
+                    <!-- Replace src with your image path -->
+                    <img src="about-me.jpeg" alt="Hafiz Muhammad Adan">
+                </div>
+            </div>
+        </div>
+
+        <div class="sections">
+            <div class="left-col">
+                <section class="card summary">
+                    <h3>Professional Summary</h3>
+                    <p>Passionate frontend and web developer focused on modern UI and new technologies in programming
+                        world, responsive layouts. I build accessible, fast and maintainable websites.</p>
+                </section>
+
+                <section class="card skills" style="margin-top:14px">
+                    <h3>Skills</h3>
+
+                    <!-- Skills shown as circular progress tiles -->
+                    <div class="skills-grid" role="list" aria-label="Skill levels">
+                        <!-- HTML 95% -->
+                        <div class="circle-skill" role="listitem" aria-label="HTML 95 percent">
+                            <div class="circle-wrap" title="HTML - 95%">
+                                <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                    <defs>
+                                        <linearGradient id="grad-html" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="var(--accent1)" />
+                                            <stop offset="100%" stop-color="var(--accent2)" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="ring-bg" cx="60" cy="60" r="48"></circle>
+                                    <circle class="ring-progress" cx="60" cy="60" r="48" stroke="url(#grad-html)"
+                                        data-percent="95"></circle>
+                                </svg>
+                                <div class="circle-label" aria-hidden="false">
+                                    <div class="value">0%</div>
+                                    <small>HTML</small>
+                                </div>
+                            </div>
+                            <div class="circle-text-print" style="display:none">HTML — 95%</div>
+                        </div>
+
+                        <!-- CSS 90% -->
+                        <div class="circle-skill" role="listitem" aria-label="CSS 90 percent">
+                            <div class="circle-wrap" title="CSS - 90%">
+                                <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                    <defs>
+                                        <linearGradient id="grad-css" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="var(--accent1)" />
+                                            <stop offset="100%" stop-color="var(--accent2)" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="ring-bg" cx="60" cy="60" r="48"></circle>
+                                    <circle class="ring-progress" cx="60" cy="60" r="48" stroke="url(#grad-css)"
+                                        data-percent="90"></circle>
+                                </svg>
+                                <div class="circle-label">
+                                    <div class="value">0%</div>
+                                    <small>CSS</small>
+                                </div>
+                            </div>
+                            <div class="circle-text-print" style="display:none">CSS — 90%</div>
+                        </div>
+
+                        <!-- JavaScript 70% -->
+                        <div class="circle-skill" role="listitem" aria-label="JavaScript 70 percent">
+                            <div class="circle-wrap" title="JavaScript - 70%">
+                                <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                    <defs>
+                                        <linearGradient id="grad-js" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="var(--accent1)" />
+                                            <stop offset="100%" stop-color="var(--accent2)" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="ring-bg" cx="60" cy="60" r="48"></circle>
+                                    <circle class="ring-progress" cx="60" cy="60" r="48" stroke="url(#grad-js)"
+                                        data-percent="70"></circle>
+                                </svg>
+                                <div class="circle-label">
+                                    <div class="value">0%</div>
+                                    <small>JavaScript</small>
+                                </div>
+                            </div>
+                            <div class="circle-text-print" style="display:none">JavaScript — 70%</div>
+                        </div>
+
+                        <!-- Java 65% -->
+                        <div class="circle-skill" role="listitem" aria-label="Java 65 percent">
+                            <div class="circle-wrap" title="Java - 65%">
+                                <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                    <defs>
+                                        <linearGradient id="grad-java" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="var(--accent1)" />
+                                            <stop offset="100%" stop-color="var(--accent2)" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="ring-bg" cx="60" cy="60" r="48"></circle>
+                                    <circle class="ring-progress" cx="60" cy="60" r="48" stroke="url(#grad-java)"
+                                        data-percent="65"></circle>
+                                </svg>
+                                <div class="circle-label">
+                                    <div class="value">0%</div>
+                                    <small>Java</small>
+                                </div>
+                            </div>
+                            <div class="circle-text-print" style="display:none">Java — 65%</div>
+                        </div>
+
+                        <!-- SEO & Marketing 85% -->
+                        <div class="circle-skill" role="listitem" aria-label="SEO and marketing 85 percent">
+                            <div class="circle-wrap" title="SEO & Marketing - 85%">
+                                <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                    <defs>
+                                        <linearGradient id="grad-seo" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="var(--accent1)" />
+                                            <stop offset="100%" stop-color="var(--accent2)" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="ring-bg" cx="60" cy="60" r="48"></circle>
+                                    <circle class="ring-progress" cx="60" cy="60" r="48" stroke="url(#grad-seo)"
+                                        data-percent="85"></circle>
+                                </svg>
+                                <div class="circle-label">
+                                    <div class="value">0%</div>
+                                    <small>SEO</small>
+                                </div>
+                            </div>
+                            <div class="circle-text-print" style="display:none">SEO & Marketing — 85%</div>
+                        </div>
+
+                        <!-- sql qualifications -->
+                        <div class="circle-skill" role="listitem" aria-label="SQL 85 percent">
+                            <div class="circle-wrap" title="SQL - 85%">
+                                <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                    <defs>
+                                        <linearGradient id="grad-sql" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="var(--accent1)" />
+                                            <stop offset="100%" stop-color="var(--accent2)" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="ring-bg" cx="60" cy="60" r="48"></circle>
+                                    <circle class="ring-progress" cx="60" cy="60" r="48" stroke="url(#grad-sql)"
+                                        data-percent="85"></circle>
+                                </svg>
+                                <div class="circle-label">
+                                    <div class="value">0%</div>
+                                    <small>SQL</small>
+                                </div>
+                            </div>
+                            <div class="circle-text-print" style="display:none">SQL — 85%</div>
+                        </div>
+                    </div>
+            </div>
+
+            </section>
+
+            <section class="card projects" style="margin-top:14px">
+                <h3>Projects</h3>
+                <ul>
+                    <li><a href="https://adandev.is-a.dev/" target="_blank" rel="noopener">Responsive Portfolio Website</a></li>
+                    <li><a href="https://imagine-dragons-fansite.netlify.app/" target="_blank" rel="noopener">Music
+                            Band Website</a></li>
+                    <li><a href="https://tag-web.is-a.dev/" target="_blank"
+                            rel="noopener">Tag-Web</a></li>
+                    <li><a href="https://awesome-projects.is-pro.dev/" target="_blank" rel="noopener">Some other
+                            amazing projects</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <aside class="right-col">
+            <section class="card experience">
+                <h3>Experience</h3>
+                <ul>
+                    <li><strong>HTML Developer</strong> — Templates & layouts (2025–present)</li>
+                    <li><strong>Currently learning and improving my skills</strong> — 2025–present</li>
+                </ul>
+            </section>
+
+            <section class="card education">
+                <h3>Education</h3>
+                <ul>
+                    <li>Software Diploma (Ongoing)</li>
+                    <li>Matriculation – 1019 / 1200</li>
+                </ul>
+            </section>
+
+            <section class="card tech" style="margin-top:14px">
+                <h3>Technologies</h3>
+                <div class="tags">
+                    <span>HTML</span><span>CSS</span><span>Java</span><span>SEO</span><span>SQL</span>
+                </div>
+            </section>
+
+            <section class="card contact" style="margin-top:14px">
+                <h3>Contact</h3>
+                <div style="font-size:0.95rem;color:var(--muted)">
+                    <div>✉️ <a href="mailto:adansuahilch@gmail.com"
+                            style="color:inherit;text-decoration:none">adansuahilch@gmail.com</a></div>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <div
+        style="margin-top:18px;font-size:0.85rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <div>© <span id="year"></span> Hafiz Muhammad Adan. All rights reserved.</div>
+        <div>Designed with HTML, CSS and a little JS</div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
